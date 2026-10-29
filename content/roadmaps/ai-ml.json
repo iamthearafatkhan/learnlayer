@@ -1,0 +1,31 @@
+{
+    "slug": "ai-ml",
+    "title": "AI / Machine Learning Engineer",
+    "description": "From Python and math to deep learning and deployment.",
+    "steps": [
+        {
+            "moduleSlug": "python-basics",
+            "label": "Python"
+        },
+        {
+            "moduleSlug": "numpy",
+            "label": "NumPy"
+        },
+        {
+            "moduleSlug": "pandas",
+            "label": "Pandas"
+        },
+        {
+            "moduleSlug": "scikit-learn",
+            "label": "Scikit-Learn"
+        },
+        {
+            "moduleSlug": "pytorch",
+            "label": "Deep Learning"
+        },
+        {
+            "moduleSlug": "spark",
+            "label": "Big Data (Spark)"
+        }
+    ]
+}

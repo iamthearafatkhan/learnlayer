@@ -1,0 +1,36 @@
+{
+    "slug": "web-flask",
+    "title": "Web Developer (Flask)",
+    "description": "From Python and math to deep learning and deployment.",
+    "steps": [
+        {
+            "moduleSlug": "sql",
+            "label": "SQL"
+        },
+        {
+            "moduleSlug": "python-basics",
+            "label": "Python"
+        },
+        {
+            "moduleSlug": "numpy",
+            "label": "NumPy"
+        },
+        {
+            "moduleSlug": "pandas",
+            "label": "Pandas"
+        },
+        {
+            "moduleSlug": "scikit-learn",
+            "label": "Scikit-learn"
+        },
+        {
+            "moduleSlug": "tensorflow",
+            "label": "TensorFlow / PyTorch"
+        },
+        {
+            "moduleSlug": "mlops",
+            "label": "MLOps & Deployment",
+            "optional": true
+        }
+    ]
+}

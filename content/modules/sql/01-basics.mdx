@@ -1,0 +1,43 @@
+---
+title: "SQL Fundamentals"
+order: 1
+moduleTitle: "SQL"
+moduleDescription: "Learn to query, filter, and join data in relational databases."
+---
+
+# SQL Fundamentals
+
+**SQL** is the #1 skill for Data Analysts. 90% of your day involves querying databases. You don't need to memorize everything; you just need to know how to ask the database the right questions.
+
+## 🎯 Core Concepts to Master
+- `SELECT`, `WHERE`, `GROUP BY`, `HAVING`
+- `INNER JOIN`, `LEFT JOIN` (The most important!)
+- `CASE WHEN` (For conditional logic)
+- Window Functions (For advanced analytics)
+
+## 📚 The Golden Path (Free Resources)
+Follow these in order. Do not skip the practice exercises.
+
+1. **[SQLBolt](https://sqlbolt.com/)**: The best interactive tutorial to learn the basics in your browser. (Takes 2 hours).
+2. **[Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/)**: Excellent for learning how analysts actually use SQL in business.
+3. **[LeetCode Database](https://leetcode.com/problemset/database/)**: Solve the "Easy" and "Medium" SQL problems to pass real job interviews.
+
+<Quiz
+  question="Which SQL clause is used to filter rows BEFORE aggregation?"
+  options={[
+    { text: "HAVING", isCorrect: false },
+    { text: "WHERE", isCorrect: true },
+    { text: "GROUP BY", isCorrect: false }
+  ]}
+  explanation="WHERE filters individual rows. HAVING filters groups after GROUP BY is applied."
+/>
+
+## 🏆 Portfolio Project: E-Commerce Analytics
+1. Download a free dataset from [Kaggle](https://www.kaggle.com/datasets).
+2. Load it into a local database using DB Browser for SQLite or PostgreSQL.
+3. Write 5 queries to find: Total sales per month, Top 10 customers, and Average order value.
+
+<QandA
+  question="What is the difference between INNER JOIN and LEFT JOIN?"
+  answer="INNER JOIN only returns rows that have matching values in both tables. LEFT JOIN returns all rows from the left table, even if there is no match in the right table (filling missing data with NULL)."
+/>

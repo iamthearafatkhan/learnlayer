@@ -1,0 +1,39 @@
+{
+    "slug": "data-scientist",
+    "title": "Data Scientist",
+    "description": "Master statistics, Python, and Machine Learning.",
+    "steps": [
+        {
+            "moduleSlug": "sql",
+            "label": "SQL"
+        },
+        {
+            "moduleSlug": "python-basics",
+            "label": "Python"
+        },
+        {
+            "moduleSlug": "numpy",
+            "label": "NumPy"
+        },
+        {
+            "moduleSlug": "pandas",
+            "label": "Pandas"
+        },
+        {
+            "moduleSlug": "matplotlib",
+            "label": "Matplotlib"
+        },
+        {
+            "moduleSlug": "seaborn",
+            "label": "Seaborn"
+        },
+        {
+            "moduleSlug": "scikit-learn",
+            "label": "Machine Learning"
+        },
+        {
+            "moduleSlug": "nlp",
+            "label": "NLP (Text AI)"
+        }
+    ]
+}

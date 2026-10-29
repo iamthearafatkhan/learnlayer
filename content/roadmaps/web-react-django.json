@@ -1,0 +1,27 @@
+{
+    "slug": "web-react-django",
+    "title": "Web Developer (React + Django)",
+    "description": "Modern SPA frontend with a Django API backend.",
+    "steps": [
+        {
+            "moduleSlug": "html-css",
+            "label": "HTML & CSS"
+        },
+        {
+            "moduleSlug": "javascript-basics",
+            "label": "JavaScript"
+        },
+        {
+            "moduleSlug": "react",
+            "label": "React"
+        },
+        {
+            "moduleSlug": "django",
+            "label": "Django API"
+        },
+        {
+            "moduleSlug": "databases",
+            "label": "Databases & ORMs"
+        }
+    ]
+}

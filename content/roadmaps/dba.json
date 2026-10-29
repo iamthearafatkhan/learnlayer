@@ -1,0 +1,23 @@
+{
+    "slug": "dba",
+    "title": "Database Administrator",
+    "description": "Design, tune, and recover production databases.",
+    "steps": [
+        {
+            "moduleSlug": "sql",
+            "label": "SQL"
+        },
+        {
+            "moduleSlug": "database-design",
+            "label": "Database Design"
+        },
+        {
+            "moduleSlug": "postgresql",
+            "label": "PostgreSQL"
+        },
+        {
+            "moduleSlug": "backup-recovery",
+            "label": "Backup & Recovery"
+        }
+    ]
+}

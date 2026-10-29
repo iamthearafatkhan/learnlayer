@@ -1,0 +1,27 @@
+{
+    "slug": "full-stack",
+    "title": "Full Stack Web Developer",
+    "description": "Master frontend, backend, and databases.",
+    "steps": [
+        {
+            "moduleSlug": "html-css",
+            "label": "HTML, CSS & JS"
+        },
+        {
+            "moduleSlug": "flask",
+            "label": "Flask (Python)"
+        },
+        {
+            "moduleSlug": "django",
+            "label": "Django (Python)"
+        },
+        {
+            "moduleSlug": "java",
+            "label": "Java Backend"
+        },
+        {
+            "moduleSlug": "mongodb",
+            "label": "MongoDB"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+---
+title: "HTML, CSS & JavaScript Fundamentals"
+order: 1
+moduleTitle: "Web Development"
+moduleDescription: "Build the structure, style, and interactivity of the web."
+---
+
+# Web Development Fundamentals
+
+Before you can learn React, Django, or Node.js, you must master the "Big Three" of the web: HTML, CSS, and JavaScript.
+
+## 🎯 Core Concepts to Master
+- **HTML**: Semantic tags, Forms, Accessibility (a11y).
+- **CSS**: Flexbox, CSS Grid, Responsive Design (Media Queries).
+- **JavaScript**: DOM manipulation, Fetch API, ES6 (Promises, Arrow Functions).
+
+## 📚 The Golden Path (Free Resources)
+1. **[The Odin Project](https://www.theodinproject.com/)**: The best free, open-source full-stack curriculum in the world. Start with their "Foundations" course.
+2. **[MDN Web Docs](https://developer.mozilla.org/en-US/)**: The official documentation for the web. Use this as your reference manual.
+3. **[Frontend Mentor](https://www.frontendmentor.io/)**: Download professional designs and try to build them yourself to practice your CSS.
+
+<Quiz
+  question="Which CSS layout system is best for building 2D, grid-based page layouts?"
+  options={[
+    { text: "Flexbox", isCorrect: false },
+    { text: "CSS Grid", isCorrect: true },
+    { text: "Float", isCorrect: false }
+  ]}
+  explanation="CSS Grid is designed for two-dimensional layouts (rows and columns). Flexbox is better for one-dimensional layouts (a row OR a column)."
+/>
+
+## 🏆 Portfolio Project: Personal Portfolio Website
+Build a fully responsive personal website from scratch using HTML and CSS. It must include: A hero section, an about me section, a grid of your projects, and a contact form.

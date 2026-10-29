@@ -1,0 +1,19 @@
+{
+    "slug": "web-django",
+    "title": "Web Developer (Django)",
+    "description": "Full backend path with Python and Django.",
+    "steps": [
+        {
+            "moduleSlug": "html-css",
+            "label": "HTML, CSS & JS"
+        },
+        {
+            "moduleSlug": "python-basics",
+            "label": "Python"
+        },
+        {
+            "moduleSlug": "django",
+            "label": "Django Framework"
+        }
+    ]
+}

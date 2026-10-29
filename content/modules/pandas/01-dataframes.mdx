@@ -1,0 +1,29 @@
+---
+title: "Pandas & Data Manipulation"
+order: 1
+moduleTitle: "Pandas"
+moduleDescription: "Spreadsheet-style data cleaning and analysis in Python."
+---
+# Pandas for Data Analysis
+Pandas is your programmable Excel. You will use it to load, clean, filter, and group datasets.
+
+## 🎯 Core Concepts
+- DataFrames and Series
+- Reading data (`pd.read_csv`)
+- Filtering (`df[df['age'] > 25]`)
+- Grouping (`df.groupby()`)
+- Handling missing data (`df.fillna()`)
+
+## 📚 The Golden Path
+1. **[Kaggle: Pandas Course](https://www.kaggle.com/learn/pandas)**: The absolute best free interactive tutorial.
+2. **[Pandas Official 10 Minutes to Pandas](https://pandas.pydata.org/docs/user_guide/10min.html)**: Your cheat sheet.
+
+<Quiz
+  question="Which Pandas function gives you a quick summary of numeric columns, like mean and count?"
+  options={[
+    { text: "df.summary()", isCorrect: false },
+    { text: "df.describe()", isCorrect: true },
+    { text: "df.info()", isCorrect: false }
+  ]}
+  explanation="`df.describe()` outputs count, mean, std, min, 25%, 50%, 75%, and max for all numeric columns."
+/>

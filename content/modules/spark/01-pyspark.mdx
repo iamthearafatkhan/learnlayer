@@ -1,0 +1,28 @@
+---
+title: "Big Data with PySpark"
+order: 1
+moduleTitle: "Big Data"
+moduleDescription: "Process massive datasets across distributed clusters."
+---
+# Big Data with Apache Spark (PySpark)
+When your data is too big for Pandas (e.g., Terabytes), you use Spark. PySpark is the Python API for Spark.
+
+## 🎯 Core Concepts
+- Distributed Computing concepts
+- RDDs vs DataFrames
+- Lazy Evaluation
+- Spark SQL
+
+## 📚 The Golden Path
+1. **[Databricks: Free Spark Training](https://www.databricks.com/learn/training/home)**: The creators of Spark offer free training.
+2. **[PySpark Tutorial (YouTube)](https://www.youtube.com/watch?v=_C8kWso4ne4)**: A great 1-hour crash course.
+
+<Quiz
+  question="Why would you choose PySpark over Pandas?"
+  options={[
+    { text: "Because PySpark has better graphing tools.", isCorrect: false },
+    { text: "Because the dataset is too large to fit in a single computer's memory.", isCorrect: true },
+    { text: "Because PySpark is faster for small CSV files.", isCorrect: false }
+  ]}
+  explanation="Pandas runs on a single machine. Spark distributes the data across multiple machines (clusters) to handle huge datasets."
+/>

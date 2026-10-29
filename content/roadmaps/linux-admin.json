@@ -1,0 +1,23 @@
+{
+    "slug": "linux-admin",
+    "title": "Linux Administrator",
+    "description": "From the terminal to networking and system services.",
+    "steps": [
+        {
+            "moduleSlug": "linux-basics",
+            "label": "Linux Basics"
+        },
+        {
+            "moduleSlug": "bash-scripting",
+            "label": "Bash Scripting"
+        },
+        {
+            "moduleSlug": "networking",
+            "label": "Networking"
+        },
+        {
+            "moduleSlug": "security",
+            "label": "Security"
+        }
+    ]
+}

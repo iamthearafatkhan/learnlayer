@@ -1,0 +1,23 @@
+{
+    "slug": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Master SQL, spreadsheets, Python for analysis, and data visualization.",
+    "steps": [
+        {
+            "moduleSlug": "sql",
+            "label": "SQL Fundamentals"
+        },
+        {
+            "moduleSlug": "excel",
+            "label": "Excel for Data Analysis"
+        },
+        {
+            "moduleSlug": "python-basics",
+            "label": "Python Fundamentals"
+        },
+        {
+            "moduleSlug": "pandas",
+            "label": "Pandas for Data Manipulation"
+        }
+    ]
+}
